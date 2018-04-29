@@ -99,7 +99,7 @@ function! ctrlp#smarttabs#init()
     let s:ctrlp_smarttabs_tabline = &tabline
     augroup ctrlpsmarttabscursor
       autocmd!
-      autocmd CursorMoved * call ctrlp#smarttabs#setTabLine()
+      "autocmd CursorMoved * call ctrlp#smarttabs#setTabLine()
     augroup END
   endif
 
